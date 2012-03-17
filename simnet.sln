@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadpool", "threadpool\threadpool.vcxproj", "{B00E7BA4-9C13-44E9-8F29-904FB7FE7B26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "net", "net\net.vcxproj", "{5DE74434-965A-4E81-9C1E-95482E22E608}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "base", "base\base.vcxproj", "{95402BD4-4376-4924-B376-9DEC59F1C232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B00E7BA4-9C13-44E9-8F29-904FB7FE7B26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B00E7BA4-9C13-44E9-8F29-904FB7FE7B26}.Debug|Win32.Build.0 = Debug|Win32
+		{B00E7BA4-9C13-44E9-8F29-904FB7FE7B26}.Release|Win32.ActiveCfg = Release|Win32
+		{B00E7BA4-9C13-44E9-8F29-904FB7FE7B26}.Release|Win32.Build.0 = Release|Win32
+		{5DE74434-965A-4E81-9C1E-95482E22E608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DE74434-965A-4E81-9C1E-95482E22E608}.Release|Win32.ActiveCfg = Release|Win32
+		{5DE74434-965A-4E81-9C1E-95482E22E608}.Release|Win32.Build.0 = Release|Win32
+		{95402BD4-4376-4924-B376-9DEC59F1C232}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95402BD4-4376-4924-B376-9DEC59F1C232}.Release|Win32.ActiveCfg = Release|Win32
+		{95402BD4-4376-4924-B376-9DEC59F1C232}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

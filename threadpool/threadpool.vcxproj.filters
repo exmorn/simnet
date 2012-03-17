@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{d1daffe7-3b87-4c71-9690-5285580af2ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spthread.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="noncopyable.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="objcounter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="mutexlock.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="condition.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="blockingqueue.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="threadpool.cpp" />
+    <ClCompile Include="exception.cpp" />
+    <ClCompile Include="testthreadpool.cpp" />
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="spthread.cpp" />
+    <ClCompile Include="mutexlock.cpp" />
+    <ClCompile Include="condition.cpp" />
+  </ItemGroup>
+</Project>
